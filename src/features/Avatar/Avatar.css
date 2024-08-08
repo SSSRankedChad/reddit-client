@@ -1,0 +1,5 @@
+.avatar-profile-image {
+    margin-right: var(--spacing-1);
+    height: 20px;
+    border-radius: 50%;
+}

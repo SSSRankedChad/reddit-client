@@ -1,0 +1,13 @@
+.posts-votes-value-loading {
+    width: 2rem !important
+}
+
+.post {
+    display: flex;
+    background: var(--color-background);
+    transition: box-shadow ease-in 1ms;
+    box-shadow: var(--box-shadow);
+    padding: var(--spacing-3);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-4);
+}

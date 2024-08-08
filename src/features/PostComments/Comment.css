@@ -1,0 +1,28 @@
+.comment {
+    background: var(--color-background);
+    transition: box-shadow ease-in 1ms;
+    margin: var(--spacing-1) 0;
+    padding: var(--spacing-2);
+    border-radius: var(--border-radius);
+
+}
+
+.comment:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.comment-metadata {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-2);
+}
+
+.comment-created-time {
+    margin-left: auto;
+    font-style: italic;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: var(--color-branding)
+}
