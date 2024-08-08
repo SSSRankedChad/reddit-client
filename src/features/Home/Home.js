@@ -7,10 +7,9 @@ import {fetchPosts, selectFilteredPosts, setSearchTerm, fetchComments} from '../
 
 
 const Home = () => {
-    let posts = useState('');
     const reddit = useSelector((state) => state.reddit);
     const {isLoading, error, searchTerm, selectedSubreddit } = reddit;
-    posts = useSelector(selectFilteredPosts);
+    const posts = useSelector(selectFilteredPosts);
     const dispatch = useDispatch();
 
 
