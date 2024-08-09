@@ -91,7 +91,7 @@ const redditSlice = createSlice({
         }));
         dispatch(getPostComments(postsWithMetaData))
      } catch(error) {
-            dispatch(getCommentsFailed());
+            dispatch(getPostsFailed());
         }
     };
 
