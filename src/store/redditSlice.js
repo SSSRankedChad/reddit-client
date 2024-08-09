@@ -53,7 +53,7 @@ const redditSlice = createSlice({
             state.posts[action.payload.index].comments = action.payload.comments;
           },
           getCommentsFailed(state, action) {
-            state.posts[action.payload].loadingComments = false;
+            state.posts[action.payload.index].loadingComments = false;
             state.posts[action.payload].error = true;
           },
         }
