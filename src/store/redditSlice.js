@@ -53,7 +53,7 @@ const redditSlice = createSlice({
             state.posts[action.payload.index].comments = action.payload.comments;
           },
           getCommentsFailed(state, action) {
-            state.posts[action.payload.index].loadingComments = false;
+            state.posts[action.payload].loadingComments = false;
             state.posts[action.payload].error = true;
           },
         }
@@ -85,7 +85,7 @@ const redditSlice = createSlice({
         const postsWithMetaData = posts.map((post) => ({
             ...post,
             showingComments: false,
-            comments: [],
+            comments: [],::
             loadingComments: false,
             errorComments: false,
         }));
