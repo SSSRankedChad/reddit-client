@@ -1,8 +1,8 @@
 :root {
-    --color-background: grey;
-    --color-foreground: #504c4cb2;
+    --color-background: rgb(26, 24, 24);
+    --color-foreground: #242323b2;
     --color-text: black;
-    --color-text-secondary: rgb(87, 67, 67);
+    --color-text-secondary: rgb(231, 221, 221);
     --color-branding: orange;
     --color-branding-transparent: rgb(231, 191, 117);
     --color-text-link: rgb(180, 107, 229);
