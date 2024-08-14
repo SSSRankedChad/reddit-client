@@ -1,4 +1,5 @@
 import {React, useState} from 'react';
+import PostLoading from './postLoading';
 import Card from "../../components/Card/card";
 import Comment from "../PostComments/Comment";
 import Avatar from "../Avatar/Avatar";
@@ -72,6 +73,7 @@ const Post = (props) => {
                     speed="0.8"
                     color="orange"
                 >
+                 <PostLoading />
                  </l-ring-2>
                 </div>
 
