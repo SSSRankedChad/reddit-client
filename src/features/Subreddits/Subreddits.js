@@ -13,7 +13,7 @@ const Subreddits = () => {
 
 
     useEffect(() => {
-        dispatch(fetchSubreddits)
+        dispatch(fetchSubreddits())
     }, [dispatch]);
 
 

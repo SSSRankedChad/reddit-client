@@ -30,7 +30,7 @@ const Header = () => {
             <span> Nu</span>Reddit
          </p>
         </div>
-       <form className='search' onSubmit={handleSearchTermSubmit}>
+       <form className='search' id="search" onSubmit={handleSearchTermSubmit}>
         <input 
          type="text"
          placeholder='search' 

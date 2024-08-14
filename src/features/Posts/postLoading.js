@@ -1,5 +1,6 @@
 import React from 'react';
-import "./postLoading.css"
+import "./postLoading.css";
+import './Posts.css';
 import 'ldrs/ring2';
 import {    LuArrowUp, LuArrowDown, LuMessageSquare} from 'react-icons/lu';
 
