@@ -85,7 +85,7 @@ const redditSlice = createSlice({
         const postsWithMetaData = posts.map((post) => ({
             ...post,
             showingComments: false,
-            comments: [],::
+            comments: [],
             loadingComments: false,
             errorComments: false,
         }));
