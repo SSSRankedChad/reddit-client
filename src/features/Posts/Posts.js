@@ -87,6 +87,8 @@ const Post = (props) => {
             </div>
             )
         }
+      return null; 
+    }
 
         return (
           <article key = {post.id}>
@@ -149,7 +151,6 @@ const Post = (props) => {
             </Card>
           </article>
         )
-    }
 
 }
 
