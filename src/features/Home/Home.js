@@ -4,7 +4,7 @@ import './Home.css';
 import Post from '../Posts/Posts';
 import PostLoading from '../Posts/postLoading';
 import {fetchPosts, selectFilteredPosts, setSearchTerm, fetchComments} from '../../store/redditSlice';
-
+import { lineWobble } from 'ldrs';
 
 const Home = () => {
     const reddit = useSelector((state) => state.reddit);

@@ -1,10 +1,10 @@
 :root {
     --color-background: rgb(26, 24, 24);
     --color-foreground: #242323b2;
-    --color-text: rgb(241, 236, 236);
+    --color-text: white;
     --color-text-secondary: rgb(231, 221, 221);
     --color-branding: orange;
-    --color-branding-transparent: rgb(231, 191, 117);
+    --color-branding-transparent: rgb( 183, 140, 71);
     --color-text-link: rgb(180, 107, 229);
     --color-text-header: rgb(243, 241, 241);
 

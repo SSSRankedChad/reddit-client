@@ -1,5 +1,5 @@
 
-import {createSlice, createSelector} from '@reduxjs/toolkit'
+import {createSlice, createSelector} from '@reduxjs/toolkit';
 import {getPostComments, getSubredditPosts} from '../api/reddit';
 
 const initialState = {
